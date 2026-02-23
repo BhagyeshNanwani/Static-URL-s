@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Registration Page",
+    "url": "https://www.testmuai.com/",
+    "waitForTimeout": 8000,
+    "execute": {
+      "beforeSnapshot": "document.querySelector('button.chfw-header_demo_btn')?.click()"
+    }
+  },
+  {
+    "name": "Pricing Page",
+    "url": "https://www.testmuai.com/pricing/",
+    "waitForTimeout": 8000
+  },
+  {
+    "name": "Test Manager Page",
+    "url": "https://www.testmuai.com/test-manager/",
+    "waitForTimeout": 8000
+  }
+]

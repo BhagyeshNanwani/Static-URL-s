@@ -1,0 +1,1 @@
+npx smartui capture urls.json --config .smartui.json
